@@ -43,7 +43,7 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" id="home" href="#">Home</a>
             <a class="nav-item nav-link" href="#">Products</a>
             <a class="nav-item nav-link" href="#">About Us</a>
             <a class="nav-item nav-link" href="#contact">Contact Us</a>
@@ -52,98 +52,106 @@
       </nav>
     </div>
     <!-- Carousel  -->
-    <div class="container">
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row d-flex align-items-center justify-content-between">
-              <div class="col-md-5">
-                <h2>Macebook Pro</h2>
-                <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature.
-                </p>
-                <button class="btn btn-dark">BUY NOW &rarr;</button>
+    <div class="carousel-bg">
+      <div class="container">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="row d-flex align-items-center justify-content-between"
+              >
+                <div class="col-md-5">
+                  <h2>Macebook Pro</h2>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature.
+                  </p>
+                  <button class="btn btn-dark">BUY NOW &rarr;</button>
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="images/banner-products/product-1.png"
+                    class="d-block w-100"
+                    alt="Mackbook Laptop"
+                  />
+                </div>
               </div>
-              <div class="col-md-6">
-                <img
-                  src="images/banner-products/product-1.png"
-                  class="d-block w-100"
-                  alt="Mackbook Laptop"
-                />
+            </div>
+            <div class="carousel-item">
+              <div
+                class="row d-flex align-items-center justify-content-between"
+              >
+                <div class="col-md-5">
+                  <h2>Alexa</h2>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature.
+                  </p>
+                  <button class="btn btn-dark">BUY NOW &rarr;</button>
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="images/banner-products/slider-1.png"
+                    class="d-block w-100"
+                    alt="Alexa Smart Device"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="row d-flex align-items-center justify-content-between"
+              >
+                <div class="col-md-5">
+                  <h2>Bluetooth Speaker</h2>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature.
+                  </p>
+                  <button class="btn btn-dark">BUY NOW &rarr;</button>
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="images/banner-products/slider-3.png"
+                    class="d-block w-100"
+                    alt="Bluetooth Speaker"
+                  />
+                </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="row d-flex align-items-center justify-content-between">
-              <div class="col-md-5">
-                <h2>Alexa</h2>
-                <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature.
-                </p>
-                <button class="btn btn-dark">BUY NOW &rarr;</button>
-              </div>
-              <div class="col-md-6">
-                <img
-                  src="images/banner-products/slider-1.png"
-                  class="d-block w-100"
-                  alt="Alexa Smart Device"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row d-flex align-items-center justify-content-between">
-              <div class="col-md-5">
-                <h2>Bluetooth Speaker</h2>
-                <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature.
-                </p>
-                <button class="btn btn-dark">BUY NOW &rarr;</button>
-              </div>
-              <div class="col-md-6">
-                <img
-                  src="images/banner-products/slider-3.png"
-                  class="d-block w-100"
-                  alt="Bluetooth Speaker"
-                />
-              </div>
-            </div>
-          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
     </div>
     <!-- smartphone -->
@@ -156,7 +164,7 @@
         <div class="card d-flex justify-content-end">
           <img
             src="images/phone/phone-1.png"
-            class="card-img-top"
+            class="card-img-top w-75"
             alt="redmi k20 pro"
           />
           <div class="card-body">
@@ -171,7 +179,7 @@
         <div class="card">
           <img
             src="images/phone/phone-2.png"
-            class="card-img-top"
+            class="card-img-top w-75"
             alt="iphone 11 pro"
           />
           <div class="card-body">
@@ -186,7 +194,7 @@
         <div class="card">
           <img
             src="images/phone/phone-3.png"
-            class="card-img-top"
+            class="card-img-top w-75"
             alt="Samsung Galaxy Note 10+"
           />
           <div class="card-body">
@@ -210,7 +218,7 @@
         <div class="card d-flex justify-content-end">
           <img
             src="images/laptop/product-1.png"
-            class="card-img-top"
+            class="card-img-top w-75"
             alt="Asus VivoBook"
           />
           <div class="card-body">
@@ -225,7 +233,7 @@
         <div class="card">
           <img
             src="images/laptop/product-2.png"
-            class="card-img-top"
+            class="card-img-top w-75"
             alt="Razer Blade 15"
           />
           <div class="card-body">
@@ -240,7 +248,7 @@
         <div class="card">
           <img
             src="images/laptop/product-3.png"
-            class="card-img-top"
+            class="card-img-top w-75"
             alt="Xiaomi Mi Notebook Pro"
           />
           <div class="card-body">
@@ -280,7 +288,7 @@
           </div>
         </div>
 
-        <div class="md-col-2 w-50">
+        <div class="md-col-6 w-50">
           <img src="images/Categories/pale-order.png" class="" alt="" />
         </div>
       </div>
@@ -298,6 +306,12 @@
         <input type="email" placeholder="Enter Your Email" />
         <input type="submit" value="Send" />
       </div>
+    </div>
+    <div class="container">
+      <footer class="d-flex justify-content-between">
+        <a href="#home">TOP &uarr;</a>
+        <p>&copy; 2020. All Right Reserved Hot Gadgets.</p>
+      </footer>
     </div>
     <!-- bootstrap javascript file -->
     <script
